@@ -1,0 +1,116 @@
+.navbar-toggler {
+  border: 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-click {
+  pointer-events:none;
+  opacity: 0.65;
+}
+
+.upvote:hover {
+ color: var(--info);
+}
+
+.upvote {
+  margin-bottom: -5px;
+}
+
+.downvote:hover {
+  color: var(--danger);
+}
+
+.downvote {
+  margin-top: -10px;
+}
+
+.md-div p:last-child {
+  margin-bottom: 0px;
+}
+
+.md-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-div h1,h2,h3,h4,h5 {
+  font-size:1.171875rem;
+}
+
+.comment-node {
+  margin-bottom: 10px;
+}
+
+.vote-bar {
+  margin-top: -6.5px;
+}
+
+.post-title {
+  line-height: 1.0;
+}
+
+.icon {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  vertical-align: middle;
+  align-self: center;
+}
+
+
+.spin {
+  animation: spins 2s linear infinite;
+}
+
+@keyframes spins {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotate(359deg); }
+}
+
+.dropdown-menu {
+  z-index: 2000;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  margin: 0.5em 5px;
+  padding: 0.1em 5px;
+}
+
+.mouse-icon {
+  margin-top: -4px;
+}
+
+.new-comments {
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.new-comments:hover {
+  overflow-y: auto;
+}
+
+.thumbnail {
+  max-height: 62px;
+  max-width: 400px;
+}
+
+.no-s-hows {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+hr {
+  border-top: 1px solid var(--secondary);
+}
+
+.emoji {
+  height: 1.2em !important;
+}
